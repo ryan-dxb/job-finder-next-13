@@ -1,14 +1,14 @@
 import React from "react";
-import Heading from "../components/Auth/FormHeading";
-import SubHeading from "../components/Auth/FormSubHeading";
-import Button from "../components/Button";
-import FormInput from "../components/Auth/FormInput";
+import Heading from "../../components/Auth/FormHeading";
+import SubHeading from "../../components/Auth/FormSubHeading";
+import Button from "../../components/Button";
+import FormInput from "../../components/Auth/FormInput";
 import { BsChevronRight } from "react-icons/bs";
-import FormFooter from "../components/Auth/FormFooter";
+import FormFooter from "../../components/Auth/FormFooter";
 
 const Register = () => {
   return (
-    <div className="flex flex-row h-screen w-full ">
+    <>
       {/* Left */}
       <div className="flex flex-col items-center justify-center w-[45%] ">
         <div className="max-w-[75%] xl:max-w-[50%]">
@@ -53,7 +53,7 @@ const Register = () => {
 
       {/* Right */}
       <div className="flex w-[55%] bg-blue-50"></div>
-    </div>
+    </>
   );
 };
 
